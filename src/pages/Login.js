@@ -20,7 +20,7 @@ const Login = () => {
 
     const handleLogin = (event) => {
         event.preventDefault();
-        if (username === "harsha" && password === "1234") {
+        if (username === "loonslab" && password === "loonslab") {
             // TODO: Handle successful login
             navigate("/Home");
         } else {
